@@ -75,9 +75,10 @@ def user_consentiment(name):
             import os
             from time import sleep
             print()
+            os.system('clear')
             info.text_TI()
             print()
-            sleep(1)
+            os.system('clear')
             menu.option_menu()
             while True:
                 menu.request_confirmation()
